@@ -2,6 +2,7 @@ void main(List<String> args) async {
   final post = await fetchPost();
   print(post.title);
   print(post.userId);
+  print("hello dart");
 }
 
 Future<Post> fetchPost(){
